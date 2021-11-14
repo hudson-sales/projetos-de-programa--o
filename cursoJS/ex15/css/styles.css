@@ -1,0 +1,37 @@
+body{
+background-color: rgb(113, 113, 244);
+font: normal 15pt Arial;
+}
+header{
+color: white;
+text-align: center;
+}
+section{
+background-color: whitesmoke;
+border-radius: 10px;
+padding: 15px;
+width: 500px;
+margin: auto;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.253);
+}
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+ input#btn{
+     background-color: coral;
+     border-radius: 10px;
+     box-shadow: 3px 3px rgba(169, 169, 169, 0.473);
+     transition-duration: 2s;
+     width: 100px;
+     height: 300;
+     padding: 10px;
+     
+ }
+ input#btn:hover{
+     background-color: darkseagreen;
+ }
+ img#foto{
+    border-radius: 50px;
+     }

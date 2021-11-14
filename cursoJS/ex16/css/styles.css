@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(113, 113, 244);
+    font: normal 15pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.253);
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+#dados,
+p {
+    display: block;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#dados {
+    width: 270px;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+p {
+    color: #FFF;
+    text-align: right;
+}
+input {
+    display: inline-block;
+    padding-left:  10px;
+}
+#btn{
+    padding: 5px;
+    width: 80px;
+    background-color: yellowgreen;
+    color: white;
+    font-size: 15pt;
+}

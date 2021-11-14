@@ -1,0 +1,80 @@
+
+body{
+    color: red;
+    display: grid;
+    margin: 0;
+    
+}
+#container{
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+}
+.primeiro{
+    margin: 20px 50px;
+
+}
+
+.box{
+    outline: 5px solid black;
+    background-color: brown;
+    border-radius: 10px;
+
+    height: 150px;
+    width: 150px;
+    
+    transition-property: background-color, border-radius;
+    transition-duration: 2s, 1.5s;
+   /* transition-delay: 1s;*/
+   transition-timing-function: cubic-bezier(.15,.89,.85.26);
+
+}
+.box:hover{
+    background-color: chartreuse;
+    border-radius: 50%;
+}
+
+img{
+     transform: translateX(100px) scale(1.5) rotate(15deg);
+}
+
+#btn1{
+    background-color: darkmagenta;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: grey ;
+    color:white;
+    padding: 5px;
+    margin: 20px;
+    font-size: 25px;
+    transition-duration: 2s, 1.5s;
+}
+#btn1:hover{
+    background-color: tomato;
+}
+
+.aviao{
+    background: url(../img/aviao.png) no-repeat center;
+    background-size: contain;
+    height: 68px;
+    position: absolute;
+    top: 50%;
+    width: 68px;
+
+    /*animation-name: fly ;
+    animation-duration: 5s;
+    transition-timing-function: linear;
+    animation-delay: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;*/
+    animation: fly 3s linear 1s infinite alternate ;
+}
+.aviao:hover{
+    animation-play-state: paused;  
+}
+@keyframes fly {
+   to{
+       transform: translateX(calc(100vw - 68px));
+   }
+}

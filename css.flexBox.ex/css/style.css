@@ -1,0 +1,49 @@
+body, ul, li, p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: arial;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    margin-top: 100px;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+.header{
+    background: #1d1e20;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    margin-left: 20px;
+}
+.menu li a{
+     display: block;
+     padding: 10px;
+}
+
+/*CSS FLEXBOX 1*/
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.flex > div{
+    flex: 1 1 200px;
+    margin: 10px;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="UTF-8">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var nome = window.prompt("Qual e seu nome?")
+        document.write(`Olá <strong>${nome}</strong>, seu nome tem  ${nome.length} letras!<br/>`);
+        document.write(` Seu nome em letras maiúsculas: <strong>${nome.toUpperCase()}</strong>!<br/>`);
+        document.write(`Seu nome em letras minúsculas: <strong>${nome.toLowerCase()}</strong>!<br/>`);
+        var n1 = Number.parseFloat(window.prompt('Digite um número?'));
+        var nf = n1.toFixed(2).replace('.',',');
+        document.write(`Número formatado: <strong>${nf}</strong>!<br/> `);
+        var monetario = n1.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'});
+        document.write(`valor em real: ${monetario}!<br/>`);
+        var monetario = n1.toLocaleString('pt-br', {style: 'currency', currency: 'USD'});
+        document.write(`valor em Dola: ${monetario}!<br/>`);
+        var monetario = n1.toLocaleString('pt-br', {style: 'currency', currency: 'EUR'});
+        document.write(`valor em Dola: ${monetario}!<br/>`);
+        
+    </script>
+</body>
+</html>
