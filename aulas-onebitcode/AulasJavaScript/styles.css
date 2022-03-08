@@ -1,0 +1,11 @@
+.divs{
+    width: 300px;
+    height: 150px;
+    display: flex;
+    border: solid 1px black;
+    align-items: center;
+    background-color: cyan;
+}
+input{
+    margin: 75px auto 75px auto;
+}
