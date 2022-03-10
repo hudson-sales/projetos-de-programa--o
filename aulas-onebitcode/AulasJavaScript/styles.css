@@ -1,10 +1,24 @@
-.divs{
+.container{
+ display: flex;
+ column-count: 3;
+}
+.div1{
     width: 300px;
     height: 150px;
     display: flex;
     border: solid 1px black;
     align-items: center;
     background-color: cyan;
+    margin: 10px;
+}
+.div2{
+    width: 300px;
+    height: 150px;
+    display: flex;
+    border: solid 1px black;
+    align-items: center;
+    background-color: rgb(0, 255, 157);
+    margin: 10px;
 }
 input{
     margin: 75px auto 75px auto;

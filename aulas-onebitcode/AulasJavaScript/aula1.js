@@ -148,3 +148,4 @@ function inverter(){
 
     alert("Nome original da nave: "+space_ship+"\n Nome após a ocultação: "+newspaceship);
 }
+
