@@ -1,0 +1,12 @@
+body{
+    width: 100%;
+}
+div{
+    background-color: aqua;
+    width: 200px;
+    height: 100px;
+    border: 1px solid;
+}
+input{
+    margin: 40px auto 40px auto;
+}
