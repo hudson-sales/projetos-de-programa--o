@@ -1,0 +1,10 @@
+form{
+    border: 1px solid red;
+    width: 350px;
+    padding: 10px;
+}
+
+button#button-formulario{
+    margin-left: 40%;
+}
+

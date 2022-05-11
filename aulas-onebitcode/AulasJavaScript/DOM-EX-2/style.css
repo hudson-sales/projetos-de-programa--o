@@ -1,0 +1,25 @@
+label.list-retend{
+    background-color: red;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+li .li-list{
+    padding: 10px;
+    width: 350px;
+    height: 15px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+form{
+    border: solid 1px;
+    padding: 10px;
+    background-color: darkgrey;
+    width: 350px;
+    height: 150px;
+}
+
